@@ -30,13 +30,13 @@
 | 4. DOM manipulation is very expensive. | 4. DOM manipulation is very easy. |
 | 5. Too much of memory wastage. | 5. No memory wastage. |
 
-**2. What is React ?**
+**2. What is React?**
 * React là 1 thư viện Javascript Front-End được phát triển bởi facebook vào năm 2011.
 * Nó tuân theo cách tiếp cận **Component** giúp xây dựng các thành phần UI có thể tái sử dụng.
 * Nó được sử dụng để xây dựng các Web và Mobile UI phức tạp và giàu tính tương tác.
 * Mặc dù chỉ mới open-sourced vào năm 2015 nhưng, nó có 1 trong những cộng đồng lốn nhất hỗ trợ nó.
 
-**3. What are the features of React ?**
+**3. What are the features of React?**
 | Features | Description |
 |---|---|
 | **JSX** | JSX là cú pháp mở rộng của javascript. Nó được sử dụng với React để mô tả giao diện người dùng trông như thế nào. Bằng cách sử dụng JSX chúng ta có thể viết HTML trong javascript. |
@@ -59,7 +59,7 @@
 * Có thể khó hiểu đối với các lập trình viên mới bắt đầu.
 * Việc code sẽ trở nên phức tạp hơn vì nó sử dụng **Inline Styles** và **JSX**.
 
-**6. What is JSX ?**
+**6. What is JSX?**
 JSX (JavaScript XML_) là một loại cú pháp mở rộng dành cho ngôn ngữ JavaScript viết theo kiểu XML. JSX cung cấp cú pháp ngọt (syntactic sugar) để thay cho câu lệnh  `React.createElement()`  trong React.
 
 Mã lệnh viết bằng JSX sẽ được chuyển sang JavaScript để trình duyệt có thể hiểu được, ví dụ:
@@ -72,3 +72,16 @@ Mã lệnh viết bằng JSX sẽ được chuyển sang JavaScript để trình
     );
   }
 ```
+
+**7. what do you understand by Virtual DOM? giải thích hoạt động của nó**
+**Virtual DOM** là một phiên bản thu nhỏ của **Real DOM**, có thể coi nó như một bản sao của **Real DOM**, mà việc cập nhập không gây ảnh hưởng tới **Real DOM**. Nó có tất cả các thuộc tính giống như object **Real DOM**, nhưng nó không có khả năng viết lên màn hình như **Real DOM**.
+
+Các bước hoạt động:
+1. Bất cứ khi nào bất kỳ dữ liệu cơ bản nào thay đổi, toàn bộ UI sẽ được hiển thị lại trong biểu diễn **Virtual DOM**. 
+![Virtual DOM 1](https://cdn1.bbcode0.com/uploads/2020/12/16/722952192df179c3c9433e7831b24038-full.png)
+
+2. Sau đó sự khác biệt giữa **Virtual DOM** mới và **Real DOM** trước đó được tính toán.
+![Virtual DOM 2](https://cdn1.bbcode0.com/uploads/2020/12/16/5f2cf2100a562593339062d0bba84c6d-full.png)
+
+3. Sau khi tính toán xong, **Real DOM** sẽ chỉ được cập nhật với những thứ đã thực sự thay đổi.
+![Virtual DOM 3](https://cdn1.bbcode0.com/uploads/2020/12/16/a9db26954e8af1188659f331edf945db-full.png)
