@@ -30,13 +30,13 @@
 | 4. DOM manipulation is very expensive. | 4. DOM manipulation is very easy. |
 | 5. Too much of memory wastage. | 5. No memory wastage. |
 
-**2. What is React?**
+**2. What is React ?**
 * React là 1 thư viện Javascript Front-End được phát triển bởi facebook vào năm 2011.
 * Nó tuân theo cách tiếp cận **Component** giúp xây dựng các thành phần UI có thể tái sử dụng.
 * Nó được sử dụng để xây dựng các Web và Mobile UI phức tạp và giàu tính tương tác.
 * Mặc dù chỉ mới open-sourced vào năm 2015 nhưng, nó có 1 trong những cộng đồng lốn nhất hỗ trợ nó.
 
-**3. What are the features of React?**
+**3. What are the features of React ?**
 | Features | Description |
 |---|---|
 | **JSX** | JSX là cú pháp mở rộng của javascript. Nó được sử dụng với React để mô tả giao diện người dùng trông như thế nào. Bằng cách sử dụng JSX chúng ta có thể viết HTML trong javascript. |
@@ -58,3 +58,16 @@
 * Do có nhiều lựa chọn library, nên việc kết hợp với các thư viện khác sẽ mất thời gian để hiểu và học.
 * Có thể khó hiểu đối với các lập trình viên mới bắt đầu.
 * Việc code sẽ trở nên phức tạp hơn vì nó sử dụng **Inline Styles** và **JSX**.
+
+**6. What is JSX ?**
+JSX (JavaScript XML_) là một loại cú pháp mở rộng dành cho ngôn ngữ JavaScript viết theo kiểu XML. JSX cung cấp cú pháp ngọt (syntactic sugar) để thay cho câu lệnh  `React.createElement()`  trong React.
+
+Mã lệnh viết bằng JSX sẽ được chuyển sang JavaScript để trình duyệt có thể hiểu được, ví dụ:
+
+    render() {
+		return(
+			<div>
+				<h1>Hello World!</h1>
+			</div>
+		);
+	}
