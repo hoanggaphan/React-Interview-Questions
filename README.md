@@ -31,3 +31,7 @@
 | 5. Too much of memory wastage. | 5. No memory wastage. |
 
 **2. What is React?**
+* React là 1 thư viện Javascript Front-End được phát triển bởi facebook vào năm 2011.
+* Nó tuân theo cách tiếp cận **Component** giúp xây dựng các thành phần UI có thể tái sử dụng.
+* Nó được sử dụng để xây dựng các Web và Mobile UI phức tạp và giàu tính tương tác.
+* Mặc dù chỉ mới open-sourced vào năm 2015 nhưng, nó có 1 trong những cộng đồng lốn nhất hỗ trợ nó.
