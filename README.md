@@ -53,3 +53,8 @@
 * React dễ dàng tích hợp với khác framework khác như Meteor, Angular, ...
 * Viết các UI test case trở nên cực kỳ dễ dàng
 
+**5. What are the limitions of React**
+* React là 1 library, ko phải framework nên ta sẽ cần kết hợp với nhiều library khác.
+* Do có nhiều lựa chọn library, nên việc kết hợp với các thư viện khác sẽ mất thời gian để hiểu và học.
+* Có thể khó hiểu đối với các lập trình viên mới bắt đầu.
+* Việc code sẽ trở nên phức tạp hơn vì nó sử dụng **Inline Styles** và **JSX**.
