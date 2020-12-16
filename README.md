@@ -59,7 +59,7 @@
 * Có thể khó hiểu đối với các lập trình viên mới bắt đầu.
 * Việc code sẽ trở nên phức tạp hơn vì nó sử dụng **Inline Styles** và **JSX**.
 
-**6. What is JSX?**
+**6. What is JSX?**\
 JSX (JavaScript XML_) là một loại cú pháp mở rộng dành cho ngôn ngữ JavaScript viết theo kiểu XML. JSX cung cấp cú pháp ngọt (syntactic sugar) để thay cho câu lệnh  `React.createElement()`  trong React.
 
 Mã lệnh viết bằng JSX sẽ được chuyển sang JavaScript để trình duyệt có thể hiểu được, ví dụ:
@@ -73,7 +73,7 @@ Mã lệnh viết bằng JSX sẽ được chuyển sang JavaScript để trình
   }
 ```
 
-**7. what do you understand by Virtual DOM? giải thích hoạt động của nó**
+**7. what do you understand by Virtual DOM? giải thích hoạt động của nó**\
 **Virtual DOM** là một phiên bản thu nhỏ của **Real DOM**, có thể coi nó như một bản sao của **Real DOM**, mà việc cập nhập không gây ảnh hưởng tới **Real DOM**. Nó có tất cả các thuộc tính giống như object **Real DOM**, nhưng nó không có khả năng viết lên màn hình như **Real DOM**.
 
 Các bước hoạt động:
