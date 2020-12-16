@@ -77,11 +77,11 @@ Mã lệnh viết bằng JSX sẽ được chuyển sang JavaScript để trình
 **Virtual DOM** là một phiên bản thu nhỏ của **Real DOM**, có thể coi nó như một bản sao của **Real DOM**, mà việc cập nhập không gây ảnh hưởng tới **Real DOM**. Nó có tất cả các thuộc tính giống như object **Real DOM**, nhưng nó không có khả năng viết lên màn hình như **Real DOM**.
 
 Các bước hoạt động:
-1. Bất cứ khi nào bất kỳ dữ liệu cơ bản nào thay đổi, toàn bộ UI sẽ được hiển thị lại trong biểu diễn **Virtual DOM**. 
+1. Bất cứ khi nào bất kỳ dữ liệu cơ bản nào thay đổi, toàn bộ UI sẽ được hiển thị lại trong biểu diễn **Virtual DOM**.\
 ![Virtual DOM 1](https://cdn1.bbcode0.com/uploads/2020/12/16/589994042ba10554685a9d6315c24ac2-full.png)
 
-2. Sau đó sự khác biệt giữa **Virtual DOM** mới và **Real DOM** trước đó được tính toán.
+2. Sau đó sự khác biệt giữa **Virtual DOM** mới và **Real DOM** trước đó được tính toán.\
 ![Virtual DOM 2](https://cdn1.bbcode0.com/uploads/2020/12/16/e5f1a852eff1e4d623f133ef6ed4604b-full.png)
 
-3. Sau khi tính toán xong, **Real DOM** sẽ chỉ được cập nhật với những thứ đã thực sự thay đổi.
+3. Sau khi tính toán xong, **Real DOM** sẽ chỉ được cập nhật với những thứ đã thực sự thay đổi.\
 ![Virtual DOM 3](https://cdn1.bbcode0.com/uploads/2020/12/16/d46a52c7400b7b212755d3686585e2ff-full.png)
