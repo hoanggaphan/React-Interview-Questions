@@ -45,3 +45,11 @@
 | **One-way data-binding** | Liên kết dữ liệu 1 chiều giữ cho mọi thứ theo module và nhanh chóng. Luồng dữ liệu 1 chiều có nghĩa là khi thiết kế 1 ứng dụng React, bạn thường lồng các thành phần con trong các thành phần mẹ. |
 | **High performance** | React chỉ cập nhật những component đã thay đổi, thay vì cập nhật tất cả các component cùng một lúc. Điều này dẫn đến các ứng dụng web nhanh hơn nhiều. |
 | **Debugging** | Các ứng dụng React rất dễ kiểm tra do có một cộng đồng developer lớn. Facebook thậm chí còn cung cấp một [browser extension](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi) nhỏ giúp gỡ lỗi React nhanh chóng và dễ dàng hơn. |
+
+**4. List some of the major advantages of React.**
+* Tăng hiệu suất của ứng dụng.
+* Nó có thể sử dụng trên cả client và server side (ssr).
+* Tăng khả năng đọc mã với JSX.
+* React dễ dàng tích hợp với khác framework khác như Meteor, Angular, ...
+* Viết các UI test case trở nên cực kỳ dễ dàng
+
