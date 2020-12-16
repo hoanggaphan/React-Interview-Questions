@@ -35,3 +35,8 @@
 * Nó tuân theo cách tiếp cận **Component** giúp xây dựng các thành phần UI có thể tái sử dụng.
 * Nó được sử dụng để xây dựng các Web và Mobile UI phức tạp và giàu tính tương tác.
 * Mặc dù chỉ mới open-sourced vào năm 2015 nhưng, nó có 1 trong những cộng đồng lốn nhất hỗ trợ nó.
+
+**3. What are the features of React?**
+| | |
+|-|-
+| **JSX** | JSX là cú pháp mở rộng của javascript. Nó được sử dụng với React để mô tả giao diện người dùng trông như thế nào. Bằng cách sử dụng JSX chúng ta có thể viết HTML trong javascript |
