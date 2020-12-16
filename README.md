@@ -63,11 +63,12 @@
 JSX (JavaScript XML_) là một loại cú pháp mở rộng dành cho ngôn ngữ JavaScript viết theo kiểu XML. JSX cung cấp cú pháp ngọt (syntactic sugar) để thay cho câu lệnh  `React.createElement()`  trong React.
 
 Mã lệnh viết bằng JSX sẽ được chuyển sang JavaScript để trình duyệt có thể hiểu được, ví dụ:
-
-    render() {
-		return(
-			<div>
-				<h1>Hello World!</h1>
-			</div>
-		);
-	}
+```React
+  render() {
+    return(
+      <div>
+        <h1>Hello World!</h1>
+      </div>
+    );
+  }
+```
