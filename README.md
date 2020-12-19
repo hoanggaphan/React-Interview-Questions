@@ -1,4 +1,5 @@
 
+
 # Phỏng vấn React
 
 ## Nguồn tham khảo
@@ -77,7 +78,7 @@ Mã lệnh viết bằng JSX sẽ được chuyển sang JavaScript để trình
 **Virtual DOM** là một phiên bản thu nhỏ của **Real DOM**, có thể coi nó như một bản sao của **Real DOM**, mà việc cập nhập không gây ảnh hưởng tới **Real DOM**. Nó có tất cả các thuộc tính giống như object **Real DOM**, nhưng nó không có khả năng viết lên màn hình như **Real DOM**.
 
 Các bước hoạt động:
-1. Bất cứ khi nào bất kỳ dữ liệu cơ bản nào thay đổi, toàn bộ UI sẽ được hiển thị lại trong biểu diễn **Virtual DOM**.\
+1. Bất cứ khi nào bất kỳ dữ liệu cơ bản nào thay đổi, toàn bộ UI sẽ được hiển thị lại trong biểu diễn **Virtual DOM**. \
 ![Virtual DOM 1](https://cdn1.bbcode0.com/uploads/2020/12/16/589994042ba10554685a9d6315c24ac2-full.png)
 
 2. Sau đó sự khác biệt giữa **Virtual DOM** mới và **Real DOM** trước đó được tính toán.\
@@ -85,3 +86,6 @@ Các bước hoạt động:
 
 3. Sau khi tính toán xong, **Real DOM** sẽ chỉ được cập nhật với những thứ đã thực sự thay đổi.\
 ![Virtual DOM 3](https://cdn1.bbcode0.com/uploads/2020/12/16/d46a52c7400b7b212755d3686585e2ff-full.png)
+
+**8. Why can’t browsers read JSX?**
+Trình duyệt chỉ có thể đọc các đối tượng Javascript nhưng JSX không phải là đối tượng javascript thông thường. Do đó, để cho trình duyệt có thể đọc được Javascript, ta cần chuyển đổi tệp JSX thành đối tượng Javascript bằng cách sử dụng các trình biến đổi như **Babel**.
