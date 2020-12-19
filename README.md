@@ -87,5 +87,5 @@ Các bước hoạt động:
 3. Sau khi tính toán xong, **Real DOM** sẽ chỉ được cập nhật với những thứ đã thực sự thay đổi.\
 ![Virtual DOM 3](https://cdn1.bbcode0.com/uploads/2020/12/16/d46a52c7400b7b212755d3686585e2ff-full.png)
 
-**8. Why can’t browsers read JSX?**
+**8. Why can’t browsers read JSX?**\
 Trình duyệt chỉ có thể đọc các đối tượng Javascript nhưng JSX không phải là đối tượng javascript thông thường. Do đó, để cho trình duyệt có thể đọc được Javascript, ta cần chuyển đổi tệp JSX thành đối tượng Javascript bằng cách sử dụng các trình biến đổi như **Babel**.
