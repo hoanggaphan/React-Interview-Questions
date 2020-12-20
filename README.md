@@ -178,5 +178,5 @@ Trình duyệt chỉ có thể đọc các đối tượng Javascript nhưng JSX
 <a id="component_questions"></a>
 ## React Component Interview Questions
 
-**11. What do you understand from “In React, everything is a component.”**
+**11. What do you understand from “In React, everything is a component.”**\
 Components là những thành phần xây dựng nên UI của ứng dụng React. Các Components chia toàn bộ giao diện người dùng thành các phần nhỏ độc lập và có thể tái sử dụng. Sau đó nó hiển thị các Components này độc lập với nhau mà ko ảnh hưởng đến phần còn lại của giao diện người dùng.
