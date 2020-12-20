@@ -165,3 +165,12 @@ Trình duyệt chỉ có thể đọc các đối tượng Javascript nhưng JSX
 	  }
 	}
 	```
+**10. How is React different from Angular?**
+| TOPIC | REACT | ANGULAR |
+|--|--|--|
+| ARCHITECTURE | Only the View of MVC | Complete MVC |
+| RENDERING | Only the View of MVC | Complete MVC |
+| DOM | Uses virtual DOM | Uses real DOM |
+| DATA BINDING | One-way data binding | Two-way data binding |
+| DEBUGGING | Compile time debugging | Runtime debugging |
+| AUTHOR | Facebook | Google |
