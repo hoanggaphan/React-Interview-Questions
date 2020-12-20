@@ -181,5 +181,31 @@ Trình duyệt chỉ có thể đọc các đối tượng Javascript nhưng JSX
 **11. What do you understand from “In React, everything is a component.”**\
 Components là những thành phần xây dựng nên UI của ứng dụng React. Các Components chia toàn bộ giao diện người dùng thành các phần nhỏ độc lập và có thể tái sử dụng. Sau đó nó hiển thị các Components này độc lập với nhau mà ko ảnh hưởng đến phần còn lại của giao diện người dùng.
 
-**12. Explain the purpose of  render()  in React.**\
+**12. Explain the purpose of  render()  in React.**
 Mỗi component trong React phải có một phương thức render (). Nó trả về một element duy nhất là đại diện của DOM Component gốc. Nếu nhiều element HTML cần được hiển thị, chúng phải được nhóm lại với nhau bên trong một thẻ bao quanh như `<div></div>`, `<></>`, `<React.Fragment></React.Fragment>`.
+
+**13.  How can you embed two or more components into one?**\
+Chúng ta có thể nhúng nhiều component theo cách sau:
+```JS
+class MyComponent extends React.Component{
+  render(){
+    return(                 
+      <div>
+        <h1>Hello</h1>
+        <Header/>
+      </div>
+    );
+  }
+}
+
+class Header extends React.Component{
+  render(){
+    return
+      <h1>Header Component</h1>
+  };
+}
+
+ReactDOM.render(
+  <MyComponent/>, document.getElementById('content')
+);
+```
