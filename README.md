@@ -209,3 +209,6 @@ ReactDOM.render(
   <MyComponent/>, document.getElementById('content')
 );
 ```
+
+**14.  What is Props?**\
+Props là viết tắt của **Properties** trong React. Chúng là những thành phần chỉ có thể đọc, tức là bất biến. Chúng luôn được truyền từ các thành phần mẹ đến các thành phần con trong suốt ứng dụng. 1 thành phần con ko bao giờ có thể gửi **Props** trở về các thành phần mẹ. Điều này giúp duy trì luồng dữ liệu 1 chiều và thường dc sử dụng để render data động.
