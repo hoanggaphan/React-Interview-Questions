@@ -220,25 +220,25 @@ Ví dụ tạo, sử dụng và thay đổi state:
 ```JS
 class App extends React.Component {
   constructor(props)  {
-	super(props);
-	this.state  =  {
-	  firstName:  "kid",
-	  lastName:  "kaito"
-	};
+    super(props);
+    this.state  =  {
+      firstName:  "kid",
+      lastName:  "kaito"
+    };
   }
 
   changeName =  ()  =>  {
-	this.setState({firstName:  "conan"});
-	this.setState({lastName:  "edogawa"});
+    this.setState({firstName:  "conan"});
+    this.setState({lastName:  "edogawa"});
   }
 
   render() {
     return (
-	  <>
-		<p>{this.state.lastName} - {this.state.firstName}</p>
-		<button onClick={changeName}>Click</button>
-	  </>
-	);
+      <>
+        <p>{this.state.lastName} - {this.state.firstName}</p>
+        <button onClick={changeName}>Click</button>
+      </>
+    );
   }
 }
 ```
