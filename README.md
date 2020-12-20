@@ -89,3 +89,79 @@ Các bước hoạt động:
 
 **8. Why can’t browsers read JSX?**\
 Trình duyệt chỉ có thể đọc các đối tượng Javascript nhưng JSX không phải là đối tượng javascript thông thường. Do đó, để cho trình duyệt có thể đọc được Javascript, ta cần chuyển đổi tệp JSX thành đối tượng Javascript bằng cách sử dụng các trình biến đổi như **Babel**.
+
+**9. How different is React’s ES6 syntax when compared to ES5?**
+1. **require vs import**
+	```JS
+	// ES5
+	var React = require('react');
+
+	// ES6
+	import React from 'react';
+	```
+2. **export vs exports**
+	```JS
+	// ES5
+	module.exports = Component;
+
+	// ES6
+	export default Component;
+	```
+3. **Component and function**
+	```JS
+	// ES5
+    var MyComponent = React.createClass({
+      render: function() {
+	    return <h3>Hello World!</h3>;
+      }
+    });
+    
+    // ES6
+    class MyComponent extends React.Component {
+      render() {
+	    return <h3>Hello World!</h3>;
+      }
+    }
+	```
+4. **Props**
+	```JS
+	// ES5
+	var App = React.createClass({
+	  propTypes: { name: React.PropTypes.string },
+	    render: function() {
+	      return <h3>Hello, {this.props.name}!</h3>;
+	    }
+	});
+
+	// ES6
+	class App extends React.Component {
+	  render() {
+	    return <h3>Hello, {this.props.name}!</h3>;
+	  }
+	}
+	```
+5. **State**
+	```JS
+	// ES5
+	var App = React.createClass({
+	  getInitialState: function() {
+	    return { name: 'world'};
+	  },
+	  render: function() {
+	    return <h3>Hello, {this.state.name}!</h3>;
+	  }
+	});
+
+	// ES6
+
+	class App extends React.Component {
+	  constructor() {
+	    super();
+	    this.state = { name: 'world'};
+	  }
+	  
+	  render() {
+	    return <h3>Hello, {this.state.name}!</h3>;
+	  }
+	}
+	```
