@@ -169,7 +169,7 @@ Trình duyệt chỉ có thể đọc các đối tượng Javascript nhưng JSX
 | TOPIC | REACT | ANGULAR |
 |--|--|--|
 | ARCHITECTURE | Only the View of MVC | Complete MVC |
-| RENDERING | Only the View of MVC | Complete MVC |
+| RENDERING | Server-side rendering | Client-side rendering |
 | DOM | Uses virtual DOM | Uses real DOM |
 | DATA BINDING | One-way data binding | Two-way data binding |
 | DEBUGGING | Compile time debugging | Runtime debugging |
