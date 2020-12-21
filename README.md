@@ -254,12 +254,14 @@ class App extends React.Component {
 | Props được truyền từ bên ngoài vào và được kiểm soát ở nơi ta truyền vào. | State nằm bên trong nội bộ và được kiểm soát bởi chính component đó. |
 
 **17. How can you update the state of a component?**\
-Để update state ta sử dụng **this.setState()** trong React Classes, **useState()** trong React Hook.
+Để update state ta sử dụng **this.setState()** trong React Class, **useState()** trong React Hook.
 * **React Hook**
 	```JS
 	import React, { useState } from 'react';
 
 	function Example() {
+	  // count trả về bởi useState là giá trị khởi tạo ban đầu là 0.
+	  // Sử dụng setCount trả về bởi useState để update state mới
 	  const [count, setCount] = useState(0);
 	  
 	  return (
@@ -295,5 +297,22 @@ class App extends React.Component {
 	    );
 	  }
 	}
-
 	```
+
+**18. What is arrow function in React? How is it used?**\
+**Arrow Function** là cú pháp ngắn gọn để viết 1 biểu thức hàm ko tên. Các function này cho phép liên kết đến ngữ cảnh của component 1 cách chính xác vì ES6 ko tự động liên kết. Các **Arrow Function** chủ yếu hữu ích khi làm việc với các higher order functions.
+```JS
+//General way
+render() {
+  return(
+    <MyInput onChange={this.handleChange.bind(this)} />
+  );
+}
+
+//With Arrow Function
+render() {
+  return(
+    <MyInput onChange={(e) =>this.handleOnChange(e)} />
+  );
+}
+```
