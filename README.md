@@ -254,14 +254,12 @@ class App extends React.Component {
 | Props được truyền từ bên ngoài vào và được kiểm soát ở nơi ta truyền vào. | State nằm bên trong nội bộ và được kiểm soát bởi chính component đó. |
 
 **17. How can you update the state of a component?**\
-Để update state ta sử dụng **this.setState()** trong React Class, **useState()** trong React Hook.
+Để update state ta sử dụng **this.setState()** trong React Classes, **useState()** trong React Hook.
 * **React Hook**
 	```JS
 	import React, { useState } from 'react';
 
 	function Example() {
-	  // count trả về bởi useState là giá trị khởi tạo ban đầu là 0.
-	  // Sử dụng setCount trả về bởi useState để update state mới
 	  const [count, setCount] = useState(0);
 	  
 	  return (
