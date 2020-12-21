@@ -252,3 +252,50 @@ class App extends React.Component {
 | Props được sử dụng để giao tiếp giữa các component. | States được sử dụng để render lại khi component thay đổi state. |
 | Props làm component có thể tái sử dụng. | State ko thể làm component tái sử dụng. |
 | Props được truyền từ bên ngoài vào và được kiểm soát ở nơi ta truyền vào. | State nằm bên trong nội bộ và được kiểm soát bởi chính component đó. |
+
+**17. How can you update the state of a component?**\
+Để update state ta sử dụng **this.setState()** trong React Class, **useState()** trong React Hook.
+* **React Hook**
+	```JS
+	import React, { useState } from 'react';
+
+	function Example() {
+	  // count trả về bởi useState là giá trị khởi tạo ban đầu là 0.
+	  // Sử dụng setCount trả về bởi useState để update state mới
+	  const [count, setCount] = useState(0);
+	  
+	  return (
+	    <div>
+	      <p>You clicked {count} times</p>
+	      <button onClick={() => setCount(count + 1)}>
+	        Click me
+	      </button>
+	    </div>
+	  );
+	}
+	```
+* **React Classes**
+	```JS
+	import React, { useState } from 'react';
+	
+	class Example extends React.Component {
+	  constructor(props) {
+	    super(props);
+	    this.state = {
+	      count: 0
+	    };
+	  }
+
+	  render() {
+	    return (
+	      <div>
+	        <p>You clicked {this.state.count} times</p>
+	        <button onClick={() => this.setState({ count: this.state.count + 1 })}>
+	          Click me
+	        </button>
+	      </div>
+	    );
+	  }
+	}
+
+	```
