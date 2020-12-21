@@ -3,8 +3,7 @@
 # Phỏng vấn React
 
 ## Nguồn tham khảo
-* <a href="https://www.edureka.co/blog/interview-questions/react-interview-questions" target="_blank" rel="noopener noreferrer">edureka.co</a>
-* <a href="https://www.simplilearn.com/tutorials/reactjs-tutorial/reactjs-interview-questions" target="_blank" rel="noopener noreferrer">simplilearn.com</a>
+<a href="https://www.edureka.co/blog/interview-questions/react-interview-questions" target="_blank" rel="noopener noreferrer">edureka.co</a>
 
 <a  id="top"></a>
 ## Mục lục
@@ -242,3 +241,14 @@ class App extends React.Component {
   }
 }
 ```
+
+**16. Differentiate between states and props.**
+| Props | State |
+|-------|-------|
+| Props chỉ có thể đọc. | State có thể thay đổi bất đồng bộ.|
+| Props là bất biến (immutable). | State thay đổi được (mutable).|
+| Props cho phép truyền data từ 1 component đến component khác. | State giữ thông tin về component. |
+| Props có thể truy cập bởi các component con. | State ko thể truy cập bởi các component con |
+| Props được sử dụng để giao tiếp giữa các component. | States được sử dụng để render lại khi component thay đổi state. |
+| Props làm component có thể tái sử dụng. | State ko thể làm component tái sử dụng. |
+| Props được truyền từ bên ngoài vào và được kiểm soát ở nơi ta truyền vào. | State nằm bên trong nội bộ và được kiểm soát bởi chính component đó. |
