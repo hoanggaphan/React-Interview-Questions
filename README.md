@@ -325,4 +325,8 @@ render() {
 | Có state | Không có state |
 | Có các Lifecycle Methods | Không có Lifecycle Methods |
  
- 
+ **20. What are the different phases of React component’s lifecycle?**
+Có 3 giai đoạn chính trong 1 vòng đời của component:
++ **Initial Rendering Phase:** Đây là giai đoạn component được khởi tạo và gắn vào DOM. 
++ **Updating Phase:** Giai đoạn cập nhật và re-render chỉ xảy ra khi Props hoặc State thay đổi.
++ **Unmounting Phase:** Giai đoạn cuối cùng, xảy ra khi component bị loại bỏ khỏi DOM.
