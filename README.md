@@ -374,6 +374,7 @@ class MyComponent extends React.Component {
     this.myRef = React.createRef();  
   }
   render() {
-    return <div ref={this.myRef} />;  }
+    return <div ref={this.myRef} />;  
+  }
 }
 ```
