@@ -371,7 +371,8 @@ Refs là viết tắt của References trong React. Nó là một thuộc tính 
 class MyComponent extends React.Component {
   constructor(props) {
     super(props);
-    this.myRef = React.createRef();  }
+    this.myRef = React.createRef();  
+  }
   render() {
     return <div ref={this.myRef} />;  }
 }
