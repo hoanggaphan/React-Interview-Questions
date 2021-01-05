@@ -363,3 +363,7 @@ class Display extends React.Component({
 
 **24. What are synthetic events in React?**\
 **Synthetic events** là các đối tượng hoạt động như một trình bao bọc trình duyệt chéo xung quanh sự kiện gốc của trình duyệt. Chúng kết hợp hành vi của các trình duyệt khác nhau thành một API. Điều này được thực hiện để đảm bảo rằng các sự kiện hiển thị các thuộc tính nhất quán trên các trình duyệt khác nhau.
+
+**25. What do you understand by refs in React?**\
+Refs là viết tắt của References trong React. Nó là một thuộc tính giúp lưu trữ một tham chiếu đến một element hoặc component trả về bởi render (). Chúng rất hữu ích khi chúng ta cần các phép đo DOM hoặc thêm các phương thức vào các component.
+> Refs không thể dùng với stateless component.
