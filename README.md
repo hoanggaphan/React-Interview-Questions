@@ -344,3 +344,19 @@ Có 3 giai đoạn chính trong 1 vòng đời của component:
 Trong React, các event được kích hoạt khi như di chuột, nhấp chuột, nhấn phím, v.v. Xử lý các event này tương tự như xử lý các event trong DOM elements. Nhưng có một số khác biệt về cú pháp như:
 + Các sự kiện được đặt tên theo qui tắc camelCase.
 + Sự kiện được truyền dưới dạng fuction thay vì string.
+
+**23. How do you create an event in React?**
+```js
+class Display extends React.Component({
+  show(evt) {
+    // do something
+  },
+
+  render() {
+    // Render the div with an onClick prop (value is a function)
+    return (
+	  <div onClick={this.show}>Click Me!</div>
+    );
+  }
+});
+```
