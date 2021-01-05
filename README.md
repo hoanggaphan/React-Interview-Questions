@@ -331,7 +331,7 @@ Có 3 giai đoạn chính trong 1 vòng đời của component:
 + **Updating Phase:** Giai đoạn cập nhật và re-render chỉ xảy ra khi Props hoặc State thay đổi.
 + **Unmounting Phase:** Giai đoạn cuối cùng, xảy ra khi component bị loại bỏ khỏi DOM.
 
- **21. Explain the lifecycle methods of React components in detail.**\
+ **21. Explain the lifecycle methods of React components in detail.**
  1. **componentWillMount()** - được gọi trước khi quá trình gắn kết xảy ra.
  2. **componentDidMount()** - được gọi ngay sau khi một component được gắn kết
  3. **componentWillReceiveProps()** - được gọi trước khi 1 component được gắn kết nhận được các props mới.
