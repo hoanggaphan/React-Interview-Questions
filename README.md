@@ -366,5 +366,4 @@ class Display extends React.Component({
 
 **25. What do you understand by refs in React?**\
 Refs là viết tắt của References trong React. Nó là một thuộc tính giúp lưu trữ một tham chiếu đến một element hoặc component trả về bởi render (). Chúng rất hữu ích khi chúng ta cần các phép đo DOM hoặc thêm các phương thức vào các component.
-> **Chú ý**
-> Refs không thể dùng với stateless component.
+> **Chú ý**: Refs không thể dùng với stateless component.
