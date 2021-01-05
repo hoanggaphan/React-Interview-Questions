@@ -355,7 +355,7 @@ class Display extends React.Component({
   render() {
     // Render the div with an onClick prop (value is a function)
     return (
-	  <div onClick={this.show}>Click Me!</div>
+      <div onClick={this.show}>Click Me!</div>
     );
   }
 });
