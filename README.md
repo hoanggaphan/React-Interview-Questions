@@ -316,3 +316,13 @@ render() {
   );
 }
 ```
+
+**19. Differentiate between stateful and stateless components.**
+| Stateful Component | Stateless Component |
+|--|--|
+| Còn gọi là Smart Component | Còn gọi là Dump Component |
+| Thường khai báo các function handle event sau đó truyền xuống Stateless Component  | Thường nhận props và sau đó render ra UI cần thiết |
+| Có state | Không có state |
+| Có các Lifecycle Methods | Không có Lifecycle Methods |
+ 
+ 
