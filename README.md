@@ -412,3 +412,35 @@ class ParentComponent extends React.Component {
   }
 }
 ```
+
+**28. How  are forms created in React?**
+React Forms tương tự như các HTML Forms. Nhưng trong React, ta quản lí dữ liệu đầu vào thông qua state và cập nhật dữ liệu bằng setState ().
+```js
+class NameForm extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {value: ''};
+  }
+
+  handleChange = (event) => {    
+    this.setState({value: event.target.value});  
+  }
+  
+  handleSubmit(event) {
+    alert('A name was submitted: ' + this.state.value);
+    event.preventDefault();
+  }
+
+  render() {
+    return (
+      <form onSubmit={this.handleSubmit}>
+        <label>
+          Name:
+          <input type="text" value={this.state.value} onChange={this.handleChange} />        
+        </label>
+        <input type="submit" value="Submit" />
+      </form>
+    );
+  }
+}
+```
