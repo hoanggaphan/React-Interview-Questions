@@ -379,3 +379,36 @@ class MyComponent extends React.Component {
   }
 }
 ```
+
+**26. List some of the cases when you should use Refs.**
++ Khi cần quản lí focus, select text hoặc phát lại media.
++ Kích hoạt các animations bắt buộc.
++ Tích hợp với thư viện DOM bên ngoài.
+
+**27. How do you modularize code in React?**\
+Sử dụng import và export của ES6. Giúp việc viết component thành những file riêng biệt.
+```js
+//ChildComponent.jsx
+export default class ChildComponent extends React.Component {
+  render() {
+    return(
+      <div>
+        <h1>This is a child component</h1>
+      </div>
+    );
+  }
+}
+
+//ParentComponent.jsx
+import ChildComponent from './childcomponent.js';
+
+class ParentComponent extends React.Component {
+  render() {
+    return(
+      <div>
+        <App />
+      </div>
+    );
+  }
+}
+```
