@@ -366,7 +366,6 @@ class Display extends React.Component({
 
 **25. What do you understand by refs in React?**\
 Refs là viết tắt của References trong React. Nó là một thuộc tính giúp lưu trữ một tham chiếu đến một element hoặc component trả về bởi render (). Chúng rất hữu ích khi chúng ta cần các phép đo DOM hoặc thêm các phương thức vào các component.
-> **Chú ý**: Refs không thể dùng với stateless component.
 ```js
 class MyComponent extends React.Component {
   constructor(props) {
@@ -379,6 +378,7 @@ class MyComponent extends React.Component {
   }
 }
 ```
+> **Chú ý**: Refs không thể dùng với stateless component.
 
 **26. List some of the cases when you should use Refs.**
 + Khi cần quản lí focus, select text hoặc phát lại media.
@@ -444,3 +444,10 @@ class NameForm extends React.Component {
   }
 }
 ```
+
+**29. What do you know about controlled and uncontrolled components?**\
++ **Controlled  Component**: Dữ liệu form được xử lí bởi React, dữ liệu giữ trong state và cập nhật bằng setState().
++ **Uncontrolled Component**: Dữ liệu form được xử lí bởi DOM, sử dụng **ref** để truy cập dữ liệu.
+
+**30. What are Higher Order Components(HOC)?**\
+Higher-order component (HOC) là một kỹ thuật nâng cao trong React để sử dụng lại logic của component. Cụ thể, HOC là một function nhận đầu vào là component và trả về một component mới
