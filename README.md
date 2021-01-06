@@ -455,7 +455,7 @@ Higher-order component (HOC) là một kỹ thuật nâng cao trong React để 
 + [Render High jacking](https://stackoverflow.com/questions/48144659/what-is-render-hijacking-in-react)
 + Thao tác với State và Props.
 
-**32. What are Pure Components?**
+**32. What are Pure Components?**\
 Pure Components hay Function Components, Stateless Components là cách nhanh nhất để viết 1 component dưới dạng 1 function. Các component này nâng cao tính đơn giản của mã và hiệu suất của ứng dụng.
 
 **33. What is the significance of keys in React?**\
