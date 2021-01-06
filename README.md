@@ -451,3 +451,8 @@ class NameForm extends React.Component {
 
 **30. What are Higher Order Components(HOC)?**\
 Higher-order component (HOC) là một kỹ thuật nâng cao trong React để sử dụng lại logic của component. Cụ thể, HOC là một function nhận đầu vào là component và trả về một component mới
+
+**31. What can you do with HOC?**
++ Tái sử dụng code, logic.
++ [Render High jacking](https://stackoverflow.com/questions/48144659/what-is-render-hijacking-in-react)
++ Thao tác với State và Props.
