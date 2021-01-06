@@ -8,15 +8,13 @@
 <a  id="top"></a>
 ## Mục lục
 
-* [General React Interview Questions](#general_questions)
++ [General React Interview Questions](#general_questions)
 
-* [React Component Interview Questions](#component_questions)
++ [React Component Interview Questions](#component_questions)
 
-* [React Redux Interview Questions](#redux_questions)
++ [React Redux Interview Questions](#redux_questions)
 
-* [React Router Interview Question](#router_questions)
-
-* [ReactJS Styling Interview Questions](#styling_questions)
++ [React Router Interview Question](#router_questions)
 
 <a id="general_questions"></a>
 ## General React Interview Questions
@@ -456,3 +454,12 @@ Higher-order component (HOC) là một kỹ thuật nâng cao trong React để 
 + Tái sử dụng code, logic.
 + [Render High jacking](https://stackoverflow.com/questions/48144659/what-is-render-hijacking-in-react)
 + Thao tác với State và Props.
+
+**32. What are Pure Components?**
+Pure Components hay Function Components, Stateless Components là cách nhanh nhất để viết 1 component dưới dạng 1 function. Các component này nâng cao tính đơn giản của mã và hiệu suất của ứng dụng.
+
+**33. What is the significance of keys in React?**\
+Keys giúp React xác định những item đã thay đổi, được thêm vào hoặc bị xóa. Keys phải được cấp cho các phần tử bên trong mảng để cung cấp một danh tính ổn định.
+
+<a id="redux_questions"></a>
+## React Redux – React Interview Questions
