@@ -483,3 +483,9 @@ Redux là một trong những thư viện phổ biến nhất để phát triể
 
 **38. What do you understand by “Single source of truth”?**\
 Redux sử dụng "Store" để lưu trữ toàn bộ trạng thái của ứng dụng tại một nơi. Vì vậy, tất cả trạng thái của component được lưu trữ trong store và chúng nhận được các bản cập nhật từ chính store. Cây state duy nhất giúp theo dõi các thay đổi theo thời gian và gỡ lỗi hoặc kiểm tra ứng dụng dễ dàng hơn.
+
+**39. List down the components of Redux.**
++ **Action** – Một object mô tả những gì đã xảy ra.
++ **Reducer** – Nơi quyết định state sẽ thay đổi như thế nào.
++ **Store** – Cây state/object của toàn bộ app được lưu tại đây.
++ **View**  – Hiển thị data được cung cấp bởi store.
