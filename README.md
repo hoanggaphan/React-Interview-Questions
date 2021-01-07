@@ -480,3 +480,6 @@ Redux là một trong những thư viện phổ biến nhất để phát triể
 + **Single source of truth:** State của toàn bộ ứng dụng được lưu trữ trong một cây object / state trong một store duy nhất. Cây state duy nhất giúp theo dõi các thay đổi theo thời gian và gỡ lỗi hoặc kiểm tra ứng dụng dễ dàng hơn.
 + **State is read-only:** Cách duy nhất để thay đổi state là kích hoạt một action. Một action là một object JS đơn giản mô tả sự thay đổi. Giống như state là đại diện tối thiểu của dữ liệu, action là đại diện tối thiểu của sự thay đổi đối với dữ liệu đó.
 + **Changes are made with pure functions:** Để chỉ định cách cây state được chuyển đổi bởi các action, bạn cần các pure functions. Các pure functions là những func có giá trị trả về phụ thuộc vào giá trị của các đối số của chúng.
+
+**38. What do you understand by “Single source of truth”?**\
+Redux sử dụng "Store" để lưu trữ toàn bộ trạng thái của ứng dụng tại một nơi. Vì vậy, tất cả trạng thái của component được lưu trữ trong store và chúng nhận được các bản cập nhật từ chính store. Cây state duy nhất giúp theo dõi các thay đổi theo thời gian và gỡ lỗi hoặc kiểm tra ứng dụng dễ dàng hơn.
