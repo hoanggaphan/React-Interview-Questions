@@ -503,3 +503,6 @@ function addTodo(text) {
   }
 }
 ```
+
+**42. Explain the role of Reducer.**\
+Reducers là các pure function chỉ định cách state của ứng dụng thay đổi để đáp ứng với một ACTION. Reducers hoạt động bằng cách xử lí state cũ và action, sau đó nó trả về state mới. Nó xác định loại cập nhật nào cần được thực hiện dựa trên loại action và sau đó trả về các giá trị mới. Nó trả về state cũ như ban đầu, nếu không thực hiện công việc nào.
