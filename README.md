@@ -477,3 +477,6 @@ Flux là một mẫu kiến trúc thực thi luồng dữ liệu đơn hướng.
 Redux là một trong những thư viện phổ biến nhất để phát triển front-end trên thị trường ngày nay. Nó là một vùng chứa trạng thái có thể dự đoán được cho các ứng dụng JavaScript và được sử dụng để quản lý trạng thái toàn bộ ứng dụng. Các ứng dụng được phát triển bằng Redux rất dễ kiểm tra và có thể chạy trong các môi trường khác nhau cho thấy hành vi nhất quán.
 
 **37. What are the three principles that Redux follows?**
++ **Single source of truth:** State của toàn bộ ứng dụng được lưu trữ trong một cây object / state trong một store duy nhất. Cây state duy nhất giúp theo dõi các thay đổi theo thời gian và gỡ lỗi hoặc kiểm tra ứng dụng dễ dàng hơn.
++ **State is read-only:** Cách duy nhất để thay đổi state là kích hoạt một action. Một action là một object JS đơn giản mô tả sự thay đổi. Giống như state là đại diện tối thiểu của dữ liệu, action là đại diện tối thiểu của sự thay đổi đối với dữ liệu đó.
++ **Changes are made with pure functions:** Để chỉ định cách cây state được chuyển đổi bởi các action, bạn cần các pure functions. Các pure functions là những func có giá trị trả về phụ thuộc vào giá trị của các đối số của chúng.
