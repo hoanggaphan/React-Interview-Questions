@@ -489,3 +489,17 @@ Redux sử dụng "Store" để lưu trữ toàn bộ trạng thái của ứng 
 + **Reducer** – Nơi quyết định state sẽ thay đổi như thế nào.
 + **Store** – Cây state/object của toàn bộ app được lưu tại đây.
 + **View**  – Hiển thị data được cung cấp bởi store.
+
+**40. Show how the data flows through Redux?**
+![enter image description here](https://cdn1.bbcode0.com/uploads/2021/1/7/b4dd6f458793d88578c816b0e1057021-full.png)
+
+**41. How are Actions defined in Redux?**\
+Các action trong React phải là một object có thuộc tính type cho biết loại ACTION đang được thực hiện. Type phải được định nghĩa như một hằng số String và bạn có thể thêm nhiều thuộc tính vào action đó. Trong Redux, các hành động được tạo bằng cách sử dụng các chức năng được gọi là Action Creators. Dưới đây là ví dụ về Action và Action Creator:
+```js
+function addTodo(text) {
+  return {
+    type: ADD_TODO,
+    text
+  }
+}
+```
