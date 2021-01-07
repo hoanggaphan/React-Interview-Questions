@@ -506,3 +506,6 @@ function addTodo(text) {
 
 **42. Explain the role of Reducer.**\
 Reducers là các pure function chỉ định cách state của ứng dụng thay đổi để đáp ứng với một ACTION. Reducers hoạt động bằng cách xử lí state cũ và action, sau đó nó trả về state mới. Nó xác định loại cập nhật nào cần được thực hiện dựa trên loại action và sau đó trả về các giá trị mới. Nó trả về state cũ như ban đầu, nếu không thực hiện công việc nào.
+
+**43. What is the significance of Store in Redux?**\
+Store là một object JavaScript có thể giữ state của ứng dụng và cung cấp một số phương pháp trợ giúp để truy cập state, dispatch action và đăng ký trình nghe. Toàn bộ cây state/object của một ứng dụng được lưu trong một cửa hàng duy nhất. Do đó, Redux rất đơn giản và dễ đoán. Chúng ta có thể chuyển middleware đến cửa hàng để xử lý dữ liệu cũng như ghi nhật ký các action khác nhau thay đổi state của store. Tất cả các action trả về state mới qua reducer.
