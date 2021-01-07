@@ -519,3 +519,15 @@ Store là một object JavaScript có thể giữ state của ứng dụng và c
 | Có dispatcher | không có khái niệm dispatcher |
 | Các component đăng ký vào store | Container component bọc toàn bộ app và kết nối |
 | State is mutable | State is immutable |
+
+**45. What are the advantages of Redux?**
++ **Predictability of outcome –** Vì state được lấy từ cùng 1 store nên không có sự nhầm về đồng bộ state giữa các phần khác của app.
++ **Maintainability –** Code trở nên dễ bảo trì hơn với kết quả có thể đoán trước và cấu trúc chặt chẽ.
++ **Server-side rendering –** Bạn chỉ cần chuyển store được tạo trên server cho phía client. Điều này rất hữu ích cho kết xuất ban đầu và cung cấp trải nghiệm người dùng tốt hơn vì nó tối ưu hóa hiệu suất ứng dụng.
++ **Developer tools –** Từ các action đến thay đổi state, các developer có thể theo dõi mọi thứ đang diễn ra trong ứng dụng theo thời gian thực.
++ **Community and ecosystem –** Redux có một cộng đồng khổng lồ đằng sau nó, điều này làm cho nó trở nên hấp dẫn hơn khi sử dụng. Một cộng đồng lớn gồm các cá nhân tài năng đóng góp vào việc cải thiện thư viện và phát triển các ứng dụng khác nhau với nó.
++ **Ease of testing –** Code của Redux chủ yếu là các hàm nhỏ, thuần túy và biệt lập. Điều này làm cho ode có thể kiểm tra và độc lập.
++ **Organization –** Redux tốt về cách tổ chức code, điều này làm cho code nhất quán hơn và dễ dàng hơn khi một nhóm làm việc với nó.
+
+<a id="router_questions"></a>
+## React Router – React Interview Questions
