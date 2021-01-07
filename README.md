@@ -509,3 +509,13 @@ Reducers là các pure function chỉ định cách state của ứng dụng tha
 
 **43. What is the significance of Store in Redux?**\
 Store là một object JavaScript có thể giữ state của ứng dụng và cung cấp một số phương pháp trợ giúp để truy cập state, dispatch action và đăng ký trình nghe. Toàn bộ cây state/object của một ứng dụng được lưu trong một cửa hàng duy nhất. Do đó, Redux rất đơn giản và dễ đoán. Chúng ta có thể chuyển middleware đến cửa hàng để xử lý dữ liệu cũng như ghi nhật ký các action khác nhau thay đổi state của store. Tất cả các action trả về state mới qua reducer.
+
+**44. How is Redux different from Flux?**
+| Flux | Redux |
+|--|--|
+| Store chứa state và logic thay đổi | Store và logic thay đổi riêng biệt |
+| Có nhiều Store | Chỉ có 1 store |
+| Tất store đều bị ngắt kết nối và phẳng | 1 store với bộ reducer phân cấp |
+| Có dispatcher | không có khái niệm dispatcher |
+| Các component đăng ký vào store | Container component bọc toàn bộ app và kết nối |
+| State is mutable | State is immutable |
