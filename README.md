@@ -463,3 +463,17 @@ Keys giúp React xác định những item đã thay đổi, được thêm vào
 
 <a id="redux_questions"></a>
 ## React Redux – React Interview Questions
+**34. What were the major problems with MVC framework?**
++ Quản lí DOM rất tốn kém.
++ Ứng dụng chậm và không hiệu quả.
++ Sự lãng phí bộ nhớ lớn.
++ Luồng dữ liệu theo 2 chiều nên khó debug.
+
+**35. Explain Flux.**\
+Flux là một mẫu kiến trúc thực thi luồng dữ liệu đơn hướng. Nó kiểm soát dữ liệu có nguồn gốc và cho phép giao tiếp giữa nhiều component bằng cách sử dụng store trung tâm có quyền đối với tất cả dữ liệu. Mọi cập nhật dữ liệu trong toàn bộ ứng dụng chỉ được thực hiện tại đây. Flux cung cấp sự ổn định cho ứng dụng và giảm lỗi thời gian chạy.
+![enter image description here](https://cdn1.bbcode0.com/uploads/2021/1/7/f90fce065c6c0348b294b717db9a68a5-full.png)
+
+**36. What is Redux?**\
+Redux là một trong những thư viện phổ biến nhất để phát triển front-end trên thị trường ngày nay. Nó là một vùng chứa trạng thái có thể dự đoán được cho các ứng dụng JavaScript và được sử dụng để quản lý trạng thái toàn bộ ứng dụng. Các ứng dụng được phát triển bằng Redux rất dễ kiểm tra và có thể chạy trong các môi trường khác nhau cho thấy hành vi nhất quán.
+
+**37. What are the three principles that Redux follows?**
