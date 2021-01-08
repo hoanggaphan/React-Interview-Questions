@@ -546,3 +546,8 @@ Router được sử dụng để xác định nhiều route mà khi người d�
   <route path="/post" component={Post}/>
 </switch>
 ```
+
+**49. List down the advantages of React Router.**
++ Cũng giống như cách React dựa trên các component, trong React Router v4, API là 'Tất cả về các component'. Một Router có thể được hình dung như một thành phần gốc duy nhất (`<BrowserRouter>`) trong đó chúng ta bao gồm các route con cụ thể (`<route>`).
++ Không cần đặt giá trị History theo cách thủ công. Trong React Router v4, tất cả những gì chúng ta cần làm là bọc các tuyến đường của mình trong thành phần `<BrowserRouter>`.
++ Các gói được chia ra: có 3 gói chia ra cho Web, Native và Core. Điều này hỗ trợ kích thước nhỏ gọn của ứng dụng của chúng tôi. Nó dễ dàng chuyển đổi dựa trên một phong cách mã hóa tương tự.
