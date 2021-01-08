@@ -531,3 +531,5 @@ Store là một object JavaScript có thể giữ state của ứng dụng và c
 
 <a id="router_questions"></a>
 ## React Router – React Interview Questions
+**46. What is React Router?**\
+React Router là một thư viện định tuyến mạnh mẽ được xây dựng trên React, giúp thêm các màn hình và luồng mới vào ứng dụng. Điều này giúp URL đồng bộ với dữ liệu đang được hiển thị trên trang web. Nó duy trì cấu trúc và hành vi tiêu chuẩn hóa và được sử dụng để phát triển các ứng dụng web trang đơn. React Router có một API đơn giản.
