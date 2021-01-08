@@ -551,3 +551,10 @@ Router được sử dụng để xác định nhiều route mà khi người d�
 + Cũng giống như cách React dựa trên các component, trong React Router v4, API là 'Tất cả về các component'. Một Router có thể được hình dung như một thành phần gốc duy nhất (`<BrowserRouter>`) trong đó chúng ta bao gồm các route con cụ thể (`<route>`).
 + Không cần đặt giá trị History theo cách thủ công. Trong React Router v4, tất cả những gì chúng ta cần làm là bọc các tuyến đường của mình trong thành phần `<BrowserRouter>`.
 + Các gói được chia ra: có 3 gói chia ra cho Web, Native và Core. Điều này hỗ trợ kích thước nhỏ gọn của ứng dụng của chúng tôi. Nó dễ dàng chuyển đổi dựa trên một phong cách mã hóa tương tự.
+
+**50. How is React Router different from conventional routing?**
+| Topic | Conventional Routing | React Routing |
+|--|--|--|
+| PAGES INVOLVED | Mỗi chế độ xem tương ứng với một file HTML mới | Chỉ một trang HTML có liên quan |
+| URL CHANGES | Một yêu cầu HTTP được gửi đến server và trả về trang HTML tương ứng | Chỉ thuộc tính History bị thay đổi |
+| FEEL | Người dùng thực sự điều hướng trên các trang khác nhau cho mỗi chế độ xem | Người dùng bị lừa khi nghĩ rằng đang điều hướng trên các trang khác nhau |
