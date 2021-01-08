@@ -537,3 +537,12 @@ React Router là một thư viện định tuyến mạnh mẽ được xây d�
 **47. Why  is switch keyword used in React Router v4?**\
 Từ khóa 'switch' được sử dụng khi bạn chỉ muốn hiển thị một route duy nhất trong một số route đã xác định. Thẻ `<switch>` khi được sử dụng khớp với URL đã nhập với các route được xác định theo thứ tự tuần tự. Khi tìm thấy kết quả phù hợp đầu tiên, nó sẽ hiển thị route được chỉ định. Qua đó bỏ qua các route còn lại.
 
+**48. Why do we need a Router in React?**\
+Router được sử dụng để xác định nhiều route mà khi người dùng nhập một URL cụ thể, nếu URL này khớp với đường dẫn của bất kỳ route’ nào được xác định bên trong router, thì người dùng sẽ được chuyển hướng đến route đó. Vì vậy, về cơ bản, chúng ta cần thêm một thư viện Router vào ứng dụng của mình, cho phép tạo nhiều route với route dẫn đến cho chúng ta một chế độ xem duy nhất.
+```js
+<switch>
+  <route exact path="/home" component={Home}/>
+  <route path="/new-post" component={Newpost}/>
+  <route path="/post" component={Post}/>
+</switch>
+```
