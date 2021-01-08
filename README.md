@@ -533,3 +533,7 @@ Store là một object JavaScript có thể giữ state của ứng dụng và c
 ## React Router – React Interview Questions
 **46. What is React Router?**\
 React Router là một thư viện định tuyến mạnh mẽ được xây dựng trên React, giúp thêm các màn hình và luồng mới vào ứng dụng. Điều này giúp URL đồng bộ với dữ liệu đang được hiển thị trên trang web. Nó duy trì cấu trúc và hành vi tiêu chuẩn hóa và được sử dụng để phát triển các ứng dụng web trang đơn. React Router có một API đơn giản.
+
+**47. Why  is switch keyword used in React Router v4?**\
+Từ khóa 'switch' được sử dụng khi bạn chỉ muốn hiển thị một route duy nhất trong một số route đã xác định. Thẻ `<switch>` khi được sử dụng khớp với URL đã nhập với các route được xác định theo thứ tự tuần tự. Khi tìm thấy kết quả phù hợp đầu tiên, nó sẽ hiển thị route được chỉ định. Qua đó bỏ qua các route còn lại.
+
